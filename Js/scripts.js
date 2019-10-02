@@ -17,8 +17,12 @@ $(document).ready(function(){
       $(this).find(".txt1").toggle();
     });
     $(".txt2").hide()
-    $(".hover").hover(function(){
+    $(".hover2").hover(function(){
       $(this).find(".txt2").toggle();
+    });
+    $("txt3").hide()
+    $(".hover3").hover(function(){
+      $(this).find(".txt3").toggle();
     });
   });
   $(document).ready(function(){
