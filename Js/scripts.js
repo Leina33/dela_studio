@@ -9,9 +9,13 @@ $(document).ready(function(){
         $(".k").toggle();
     });
 
-    $(".image").hover(function(){
-      $(this).animate({opacity: "0.4"});
-    } ,);
+    // $(".image").hover(function(){
+    //   $(this).animate({opacity: "0.4"});
+    // } ,);
+    $(".txt1").hide()
+    $(".hover").hover(function(){
+      $(this).find(".txt1").toggle();
+    });
   });
   $(document).ready(function(){
     $("form").submit(function(event){
