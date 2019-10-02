@@ -16,6 +16,10 @@ $(document).ready(function(){
     $(".hover").hover(function(){
       $(this).find(".txt1").toggle();
     });
+    $(".txt2").hide()
+    $(".hover").hover(function(){
+      $(this).find(".txt2").toggle();
+    });
   });
   $(document).ready(function(){
     $("form").submit(function(event){
