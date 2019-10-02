@@ -1,3 +1,8 @@
 *{
     overflow-x: hidden;
 }
+.background{
+    background: url("../asserts/background/image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
