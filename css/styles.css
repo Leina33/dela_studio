@@ -13,3 +13,10 @@
     margin-right: auto;
     margin-left: auto;
   }
+  .logo{
+    align-items: center;
+    text-align: center;
+    color:white;
+    padding-top:20%;
+    font-family: 'Times New Roman', Times, serif;
+}
