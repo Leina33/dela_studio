@@ -32,6 +32,10 @@ $(document).ready(function(){
     $(".hover5").hover(function(){
       $(this).find("txt5").toggle();
     });
+    $(".txt6").hide()
+    $(".hover").hover(function(){
+      $(this).find("txt6").toggle();
+    });
   });
   $(document).ready(function(){
     $("form").submit(function(event){
