@@ -24,6 +24,14 @@ $(document).ready(function(){
     $(".hover3").hover(function(){
       $(this).find(".txt3").toggle();
     });
+    $(".txt4").hide()
+    $(".hover4").hover(function(){
+      $(this).find("txt4").toggle();
+    });
+    $(".txt5").hide()
+    $(".hover5").hover(function(){
+      $(this).find("txt5").toggle();
+    });
   });
   $(document).ready(function(){
     $("form").submit(function(event){
