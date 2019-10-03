@@ -33,8 +33,12 @@ $(document).ready(function(){
       $(this).find("txt5").toggle();
     });
     $(".txt6").hide()
-    $(".hover").hover(function(){
+    $(".hover6").hover(function(){
       $(this).find("txt6").toggle();
+    });
+    $(".txt7").hide()
+    $(".hover7").hover(function(){
+      $(this).find(".txt7").toggle();
     });
   });
   $(document).ready(function(){
